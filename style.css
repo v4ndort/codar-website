@@ -376,6 +376,45 @@ footer div{
 }
 
 @media (max-width: 750px){
+
+/* ------header----- */
+    .login-button{
+        visibility: hidden;
+    }
+
+    .main-menu{
+        margin: auto;
+        justify-content: center;
+    }
+
+    nav{
+        position: relative;
+        display: block;
+        max-width:350px ;
+        font-size: 2rem;
+        margin: 5rem 5rem auto auto;
+        text-align: center;
+    }
+
+    nav a{
+        margin: auto
+    }
+
+    .menu-dot{
+       visibility: hidden;
+    }
+
+    .logo{
+        position: relative;
+        display: block;
+        margin: auto;
+        left: 18rem;
+    }
+
+
+
+
+
     .container3{
 
         margin: 2rem auto auto auto ;

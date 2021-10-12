@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    text-decoration: none;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    text-rendering: optimizeLegibility;
+}
+
+/* -----------------Header-------------- */
+
+header .main-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+
+    /* Responsividade */
+    margin: auto;
+    margin-top: 3rem ;
+    max-width: 980px;
+    width: 90%;
+}
+
+header nav a{
+    margin-left: 4.5rem;
+    color: black;
+    font-style: bolder;
+}
+
+header .logo{
+    color:#D6000D;
+    font-size: 3.5rem;
+    font-style: oblique;
+    font-weight: 900;
+}
+
+header .menu-dot{
+    color: black;
+    display: inline;
+    position: relative;
+    left: -10px;
+}
+
+header .login-button{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+    background: #D6000D;
+    color: white;
+    border-radius: .5rem;
+}
+
+/* ----------------Main container1--------------- */
+
+ .container1{
+    width: 90%;
+    max-width: 980px;
+
+    justify-content: space-between;
+    display: flex;
+    margin: 10rem auto 5rem auto;
+    align-items: center;
+}
+
+.videocall {
+    margin: 0px 0px 0px 10rem;
+    max-width: 300px;
+    min-width: 150px;
+}
+
+.container1 > div {
+    position: relative;
+    right: 15rem;
+    line-height: 3.5rem;
+}
+
+.container1  p {
+    font-weight: bolder;
+}
+
+.container1 h1{
+    color: #D6000D;
+    font-size: 4rem;
+}
+
+.container1 a{
+    position: absolute;
+    font-size: 1.8rem;
+    font-weight: 600;
+    background: #D6000D;
+    color: white;
+    padding: 2.5px;
+    text-align: center;
+    border-radius: .5rem;
+    margin-top: 3rem;
+    width: 25rem;
+}
+
+/* ---------------Main container2----------------------- */
+
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    width: 90%;
+    max-width: 980px;
+
+    margin: 15rem auto 5rem auto;
+   
+}
+
+.coding {
+    position: relative;
+    top: 8rem;
+    right: 10rem;
+    width: 90%;
+    max-width: 350px;
+    min-width: 15px;
+}
+
+.wrapper ul {
+    list-style-type: none;
+    position: relative;
+    left: 15rem;
+    line-height: 3rem;
+    text-decoration: none;
+}
+
+.container2 i{
+    margin-right: 10px;
+    color: #D6000D;
+}
+
+.call{
+    width: 350px;
+    position:relative;
+    left: 35%;
+    margin-top: 15rem;
+    margin-bottom:5rem ;
+}
+
+.call p {
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.call input{
+    background-color: rgb(211, 205, 205);
+    border-radius: 10px;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    text-align: center;
+    height: 4rem;
+    color: rgb(107, 107, 107);
+}
+
+.ligamos-button{  
+    margin-left: .5rem;
+    height: 4rem;
+    width: 5rem;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    color: white;
+    background-color: #D6000D;
+    padding: 1rem;
+   
+}
+
+.container3 {
+    width: 90%;
+    max-width: 980px;
+    margin: 8rem auto 15rem auto;
+    display: flex;
+
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
+.testimonials {
+    max-width:550px;
+    min-width: 250px;
+    display: flex;
+    padding: 20px;
+    border-radius: 5px;
+    align-items: center;
+    background: rgb(224, 217, 217);
+    margin-left: 15px;
+    line-height: 1.5rem;
+}
+
+.dot {
+  height: 40px;
+  width: 55px;
+  background: #D6000D;
+  border-radius: 50%;
+  
+  margin-right: 2.5rem;
+  margin-left: 1.5rem;
+}
+
+.name {
+    margin-top: 1rem;
+    line-height: 1rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.profession {
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+
+/* ----------------Footer--------------- */
+
+
+footer{
+    margin-top: 15rem;
+    color: white;
+    background: #0c0c0c;
+    
+}
+
+.footer-container{
+    display:flex;
+    width: 90%;
+    max-width: 980px;
+    margin: 15rem auto;
+    background: #0c0c0c;
+
+}
+
+.redes{
+    display: flex;
+    flex-direction: column;
+}
+
+.redes h2 {
+    padding: 15px;
+    margin: auto;
+}
+
+.redes > div{
+
+    display: flex;
+    position: relative;
+    top: -80px;
+    right: 10%;
+}
+
+.fab{
+    width: 180%;
+    margin: auto;
+    color: #D6000D ;
+
+}
+
+.footer-container div{
+    margin-top: 10rem;
+    margin-left: 5rem;
+    line-height: 3rem;
+}
+
+@media (max-width: 950px){
+
+    /* Alteração do tamanho da fonte em rem */
+    html{
+        font-size: 50%;
+    }
+
+    .videocall{
+        width: 90%;
+        margin-top: 10rem;
+        margin: 10rem auto auto auto;
+    }
+
+    .container1{
+        margin: auto;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .container1 h1 {
+        margin: auto;
+        text-align: center;
+        
+    }
+
+    .container1 > div {
+        position: relative;
+        right: 0rem;
+        line-height: 4rem;
+        margin: 6rem auto;
+    }
+    
+    .container1  p {
+        margin: auto;
+        font-size: 2rem;
+    }
+    
+    .container1 h1{
+        margin: auto;
+
+    }
+    
+    .container1 a{
+        display: block;
+        margin: auto;
+        position: relative;
+        top: 3rem;
+        padding: 1rem;
+        border-radius: 1rem;
+        width: 30rem;
+
+    }
+
+    /* container2 */
+
+    .container2{
+        margin-top: 5rem;
+        flex-direction: column;
+    }
+
+    .wrapper{
+        display: block;
+        margin: auto;
+    }
+
+    .wrapper ul{ 
+        font-size: 2rem;
+        left: 0rem;
+        line-height: 4rem;
+        text-decoration: none
+    }
+
+     .container2 > img{
+        order: -1;
+        margin: auto;
+        max-width: 250px;
+        margin: 5rem auto 5rem auto;
+
+        top: 0rem;
+        right: 0rem;
+    }
+
+}
+
+@media (max-width: 750px){
+    .container3{
+        flex-direction: column;
+        
+    }
+
+    .call{
+        display: block;
+        margin: 15rem auto;
+        left: 0;
+        align-items: center;
+        text-align: center;
+        
+    }
+
+    .call > div{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .call > div > input{
+        margin: auto;
+
+        width: 25rem;
+    }
+
+    .call > div > a{
+        display: block;
+        width: 25rem;
+        
+        margin: 2rem auto;
+    }
+
+    .testimonials{
+        min-width: 200px;
+        max-width: 450px;
+        margin: 5rem auto auto auto ;
+    }
+
+
+
+   .footer-container{
+       align-items: center;
+        text-align: center;
+        background: #0c0c0c;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+   }
+
+
+}

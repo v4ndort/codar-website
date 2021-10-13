@@ -13,6 +13,7 @@ html{
 }
 
 body{
+    overflow-x: hidden;
     font-size: 1.6rem;
     height: 100vh;
     font-family: 'Roboto', sans-serif;
@@ -126,8 +127,8 @@ header .login-button{
 
 .coding {
     position: relative;
-    top: 8rem;
-    right: 10rem;
+    top: 0rem;
+    right: 8rem;
     width: 90%;
     max-width: 350px;
     min-width: 15px;
@@ -136,7 +137,7 @@ header .login-button{
 .wrapper ul {
     list-style-type: none;
     position: relative;
-    left: 15rem;
+    left:17rem;
     line-height: 3rem;
     text-decoration: none;
 }
@@ -147,11 +148,14 @@ header .login-button{
 }
 
 .call{
-    width: 350px;
+    width: 100%;
+    min-width: 250px;
+    max-width: 350px;
+
     position:relative;
-    left: 35%;
-    margin-top: 15rem;
-    margin-bottom:5rem ;
+    left: 25%;
+    bottom: 15rem;
+    margin: 13rem 0px 5rem 0px;
 }
 
 .call > div{
@@ -190,7 +194,7 @@ header .login-button{
 .container3 {
     width: 90%;
     max-width: 980px;
-    margin: 8rem auto 15rem auto;
+    margin: 5rem auto 15rem auto;
     display: flex;
 
     font-size: 1.3rem;
@@ -293,6 +297,11 @@ footer div{
 
 @media (max-width: 950px){
 
+    body{
+        overflow-x: hidden;
+
+    }
+
     /* Alteração do tamanho da fonte em rem */
     html{
         font-size: 50%;
@@ -373,9 +382,24 @@ footer div{
         right: 0rem;
     }
 
+    .call{
+        width: 100%;
+        min-width: 250px;
+        max-width: 350px;
+        
+        position:relative;
+        top: 1.5rem;
+        left: 0%;
+        margin: 10rem auto 15rem auto;
+    }
+
 }
 
 @media (max-width: 750px){
+
+    body{
+        overflow-x: hidden;
+    }
 
 /* ------header----- */
     .login-button{
@@ -385,58 +409,66 @@ footer div{
     .main-menu{
         margin: auto;
         justify-content: center;
+
+    }
+
+    header .main-menu{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        height: 8vh;
+    
+        /* Responsividade */
+        margin: auto;
+        margin-top: 3rem ;
+        max-width: 980px;
+        width: 90%;
     }
 
     nav{
         position: relative;
         display: block;
+        width: 100%;
         max-width:350px ;
-        font-size: 2rem;
-        margin: 5rem 5rem auto auto;
+        font-size: 1.8rem;
+
+        margin: 7rem auto auto auto;
         text-align: center;
+        align-items: center;
     }
 
-    nav a{
-        margin: auto
+    header nav a{
+        position: relative;
+        left: 8rem;
+        text-align:center ;
+        margin: auto auto auto 15px;
     }
 
-    .menu-dot{
-       visibility: hidden;
-    }
 
     .logo{
-        position: relative;
-        display: block;
+        position: absolute;
         margin: auto;
-        left: 18rem;
     }
 
-
-
-
-
     .container3{
-
-        margin: 2rem auto auto auto ;
+        margin: 2.5rem auto auto auto ;
         flex-direction: column;
-        
     }
 
     .call{
         display: block;
-        margin: 10rem auto;
+        margin:10rem auto 5rem auto;
         left: 0;
         align-items: center;
         text-align: center;
-        
     }
 
     .call > div{
         margin: auto;
         width: 100%;
-
         max-width: 200px;
         min-width: 150px;
+
         display: flex;
         flex-direction: column;
     }
@@ -452,15 +484,24 @@ footer div{
         width: 25rem;
         
         margin: 2rem auto;
+        border-radius: 10px;
     }
 
     .testimonials{
-        min-width: 200px;
-        max-width: 450px;
+        width: 100%;
+        min-width: 150px;
+        max-width: 300px;
         margin: 5rem auto auto auto ;
+
+        border-radius: 15px;
     }
 
+    .testimonials p{
+        text-align:left ;
+        justify-content: center;
+        font-size: 1.5rem;
 
+    }
 
    .footer-container{
        align-items: center;
@@ -473,9 +514,20 @@ footer div{
 
    .footer-features{
        margin: 10rem auto auto auto;
-      
-       
    }
 
+}
 
+@media (max-width: 350px){
+ 
+
+    .dot {
+        height: 50px;
+        width: 145px;
+        background: #D6000D;
+        border-radius: 50%;
+        
+        margin-right: 2.5rem;
+        margin-left: 1.5rem;
+      }
 }

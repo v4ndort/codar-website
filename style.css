@@ -524,4 +524,8 @@ footer div{
         font-size: 1.7rem;
     }
 
+    body{
+        overflow-x: hidden;
+    }
+
 }

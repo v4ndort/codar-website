@@ -518,3 +518,10 @@ footer div{
    }
 
 }
+
+@media (max-width: 350px){
+    nav{
+        font-size: 1.7rem;
+    }
+
+}

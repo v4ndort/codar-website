@@ -430,11 +430,12 @@ footer div{
         display: block;
         width: 100%;
         max-width:350px ;
-        font-size: 1.8rem;
-
+        font-size: 2rem;
+        
         margin: 7rem auto auto auto;
         text-align: center;
         align-items: center;
+        padding-top: 2.5rem;
     }
 
     header nav a{
@@ -516,18 +517,4 @@ footer div{
        margin: 10rem auto auto auto;
    }
 
-}
-
-@media (max-width: 350px){
- 
-
-    .dot {
-        height: 50px;
-        width: 145px;
-        background: #D6000D;
-        border-radius: 50%;
-        
-        margin-right: 2.5rem;
-        margin-left: 1.5rem;
-      }
 }
